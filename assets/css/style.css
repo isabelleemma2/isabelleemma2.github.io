@@ -177,7 +177,7 @@ body{
 .row {
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
+    width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -194,7 +194,7 @@ body{
 
 .card-container {
     display: flex;
-    flex: 0 0 45%;
+    flex: 10 0 45%;
     flex-direction: column;
     margin-right: 15px;
     margin-left: 15px;
@@ -213,15 +213,15 @@ body{
 
 /* .card-container:hover {
     box-shadow: 0 5px 15px 2px rgba(0, 0, 0, 0.5);
-  }
+  } */
 
 .project-card {
     position: relative;
     width: 100%; 
    
-    height: 400px;
+    height: 150px;
     background-color: #dbe9f4;
-} */
+}
 
 .project-image {
     position: relative;
@@ -271,6 +271,13 @@ body{
 }
 
 .project-desc p {
+    font-family: roboto-condensed, sans-serif;
+    font-size: 15px;
+    font-weight: 0;
+    color: #666666;
+}
+
+.project-desc ul {
     font-family: roboto-condensed, sans-serif;
     font-size: 15px;
     font-weight: 0;
